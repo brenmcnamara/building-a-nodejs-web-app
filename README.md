@@ -1,6 +1,10 @@
 # Building a NodeJS Web App
 
+This document is meant to give a guided tour into building a proper NodeJS Web Application. When building a web application, many things need to be considered:
+
 ## Web Frameworks
+
+First, you need to decide on a Web Framework to build on top of (unless you are one of those who wants to build something from scratch, in which case, you should start with the node documentation on the [HTTP](https://nodejs.org/api/http.html) module).
 
 - [Express](https://expressjs.com/)
 - [Feathers](https://feathersjs.com/)
@@ -9,10 +13,14 @@
 
 ## Authentication / Authorization Material
 
+Authentication is very important to get right and many NodeJS tutorials have misleading or poor practices on how to do this properly. Depending on whether you are building your own solution or you just want to use something that has already been built, there is material below to guide you through the process.
+
 ### Overviews
-- [here](https://hackernoon.com/your-node-js-authentication-tutorial-is-wrong-f1a3bf831a46) is a good article to read to get a sense of common mistakes made in NodeJS applications with authentication
+- [Here](https://hackernoon.com/your-node-js-authentication-tutorial-is-wrong-f1a3bf831a46) is a good article to read to get a sense of common mistakes made in NodeJS applications with authentication
 
 ### Services
+
+If you are looking for a pre-built solution, here are some places to start:
 
 - [Firebase](https://firebase.google.com/) handles most of authentication for you, including storing passwords, 2-factor authentication, and password reset requests.
 - [Auth0](https://auth0.com/) is "Authentication-as-a-service" and includes libraries and tutorials in most languages (including Node)
