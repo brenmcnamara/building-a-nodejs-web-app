@@ -11,6 +11,15 @@ First, you need to decide on a Web Framework to build on top of (unless you are 
 - [Hapi](https://hapijs.com/)
 - [Koa](https://koajs.com/)
 
+## Deployment
+
+While people conventionally think of deployment as something to do when a Web Application is complete, I'm putting this at the beginning of the docs. The earlier you deploy your web app, the easier it will be. Don't wait until the end to figure out how your web app will look for production with respect to clustering, databases, services, etc... Deploy first (even if it's just a hello world web page) and handle these other things incrementally.
+
+### Hosting Services
+
+- [Heroku](https://www.heroku.com) is an easy hosting service to use, and has [documentation](https://devcenter.heroku.com/articles/getting-started-with-nodejs) for how to do this with NodeJS
+- [Digital Ocean](https://www.digitalocean.com/community/tutorials/how-to-set-up-a-node-js-application-for-production-on-ubuntu-16-04) has good documentation on deploying a NodeJS Web App from their platform
+
 ## Authentication / Authorization Material
 
 Authentication is very important to get right and many NodeJS tutorials have misleading or poor practices on how to do this properly. Depending on whether you are building your own solution or you just want to use something that has already been built, there is material below to guide you through the process.
